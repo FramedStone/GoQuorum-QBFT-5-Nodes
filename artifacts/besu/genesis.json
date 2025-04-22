@@ -1,0 +1,51 @@
+{
+  "nonce": "0x0",
+  "timestamp": "0x58ee40ba",
+  "extraData": "0xf88fa00000000000000000000000000000000000000000000000000000000000000000f86994ef771a8a24a3309c14bc20c817d547234817bdd594dc33cbd89733e9e494bedc0a63d130b7862d6e0e9440d2f1851b39767b63268cc2099a74f98ea8259094c788320ef80546d07b2ece5dd986912d015d631994a42294cdb79a9a3caa9206dd4fe2bc97410c66a1c080c0",
+  "gasLimit": "0xFFFFFF",
+  "gasUsed": "0x0",
+  "number": "0x0",
+  "difficulty": "0x1",
+  "coinbase": "0x0000000000000000000000000000000000000000",
+  "mixHash": "0x63746963616c2062797a616e74696e65206661756c7420746f6c6572616e6365",
+  "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+  "config": {
+    "chainId": 1337,
+    "homesteadBlock": 0,
+    "eip150Block": 0,
+    "eip150Hash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+    "eip155Block": 0,
+    "eip158Block": 0,
+    "byzantiumBlock": 0,
+    "constantinopleBlock": 0,
+    "petersburgBlock": 0,
+    "istanbulBlock": 0,
+    "muirglacierblock": 0,
+    "berlinBlock": 0,
+    "londonBlock": 0,
+    "contractSizeLimit": 64,
+    "zeroBaseFee": true,
+    "qbft": {
+      "blockperiodseconds": 5,
+      "epochlength": 30000,
+      "requesttimeoutseconds": 10
+    }
+  },
+  "alloc": {
+    "0x51b6b79b1da926671ce53053b76262c390f7550d": {
+      "balance": "1000000000000000000000000000"
+    },
+    "0xd291d7800b6962c6048a69f850f6970fe8c41e57": {
+      "balance": "1000000000000000000000000000"
+    },
+    "0xf2bb930f5917d6efb7204e2d517e8c21257b2373": {
+      "balance": "1000000000000000000000000000"
+    },
+    "0x9a2d8a7739a02ea03cfd21ac18253040b0f3d6c3": {
+      "balance": "1000000000000000000000000000"
+    },
+    "0x2340d7029970262e949280fac88b8e0806b9371f": {
+      "balance": "1000000000000000000000000000"
+    }
+  }
+}
