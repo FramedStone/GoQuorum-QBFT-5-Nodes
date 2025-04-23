@@ -1,0 +1,20 @@
+npx quorum-genesis-tool --consensus qbft --chainID 1337 --blockperiod 5 --requestTimeout 10 --epochLength 30000 --difficulty 1 --gasLimit "0xFFFFFF" --coinbase "0x0000000000000000000000000000000000000000" --validators 5 --members 0 --bootnodes 0 --outputPath "artifacts"
+
+mv artifacts/{date}/* artifacts
+
+rm -rf artifacts/{date}
+
+setup static-nodes.json
+setup .env
+
+docker-compose up -d
+
+docker-compose exec node0 sh
+cd data
+geth attach geth.ipc
+eth.syncing // must return false
+
+net.peerCount
+istanbul.getValidators("latest")
+
+docker-compose down --rmi all
