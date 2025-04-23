@@ -1,0 +1,35 @@
+{
+  "algorithm": "qbft",
+  "nodes": [
+    {
+      "name": "validator1",
+      "client": "goquorum",
+      "rpcUrl": "http://node0:22000",
+      "privateTxUrl": ""
+    },
+    {
+      "name": "validator2",
+      "client": "goquorum",
+      "rpcUrl": "http://node1:22001",
+      "privateTxUrl": ""
+    },
+    {
+      "name": "validator3",
+      "client": "goquorum",
+      "rpcUrl": "http://node2:22002",
+      "privateTxUrl": ""
+    },
+    {
+      "name": "validator4",
+      "client": "goquorum",
+      "rpcUrl": "http://node3:22003",
+      "privateTxUrl": ""
+    },
+    {
+      "name": "validator5",
+      "client": "goquorum",
+      "rpcUrl": "http://node4:22004",
+      "privateTxUrl": ""
+    }
+  ]
+}
