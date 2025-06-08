@@ -3,6 +3,9 @@ FROM quorumengineering/quorum:latest
 
 ARG NODE
 
+# Set timezone to Malaysia/Kuala Lumpur
+ENV TZ=Asia/Kuala_Lumpur
+
 WORKDIR /QBFT-Network
 
 # node keystore directory 
