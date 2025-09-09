@@ -4,7 +4,7 @@ mv artifacts/{date}/* artifacts
 
 rm -rf artifacts/{date}
 
-setup static-nodes.json
+setup static-nodes.json (in goQuorum directory)
 setup .env
 
 docker-compose up -d
